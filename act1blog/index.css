@@ -1,0 +1,86 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial;
+}
+.fixed-header,
+.fixed-footer {
+  width: 100%;
+  position: fixed;
+  background: blue;
+  padding: 10px 0;
+  color: #fff;
+}
+.fixed-header {
+  top: 0;
+}
+.fixed-footer {
+  bottom: 0;
+}
+
+figcaption {
+  color: #7b8898;
+  font-family: "Mercury SSm A", "Mercury SSm B", Georgia, Times,
+    "Times New Roman", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑",
+    宋体, SimSun, STXihei, "华文细黑", serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+.container p {
+  line-height: 200px;
+}
+
+p {
+  font-family: Arial;
+}
+table tbody tr td {
+  border: hidden;
+}
+
+td {
+  width: 50%;
+}
+
+.background {
+  background-image: url("images/footer.jpg");
+}
+
+.link {
+  text-decoration: none;
+  background-color: none;
+}
+.link:hover {
+  text-decoration: none;
+}
+.links {
+  font-size: 18px;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 35%;
+}
+
+.headerLink {
+  text-decoration: none;
+  color: white;
+}
+
+.titleLink {
+  text-decoration: none;
+  color: black;
+}

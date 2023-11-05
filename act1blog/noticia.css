@@ -1,0 +1,96 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial;
+}
+.foto {
+  display: block;
+  width: 100%;
+}
+.fixed-header,
+.fixed-footer {
+  width: 100%;
+  position: fixed;
+  background: blue;
+  padding: 10px 0;
+  color: #fff;
+}
+.fixed-header {
+  top: 0;
+}
+.fixed-footer {
+  bottom: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+
+td {
+  width: 50%;
+}
+.newsTitle {
+  font-family: "Quarto A", "Quarto B", Georgia, Times, "Times New Roman",
+    "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei,
+    "华文细黑", serif;
+  font-size: 47px;
+}
+.newsContainer {
+  color: #7b8898;
+  font-family: "Mercury SSm A", "Mercury SSm B", Georgia, Times,
+    "Times New Roman", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑",
+    宋体, SimSun, STXihei, "华文细黑", serif;
+  font-size: 22px;
+  display: block;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.newsSubtitle {
+  font-family: "Quarto A", "Quarto B", Georgia, Times, "Times New Roman",
+    "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei,
+    "华文细黑", serif;
+  font-size: 28px;
+}
+
+.background {
+  background-image: url("images/footer.jpg");
+}
+
+.entradilla {
+  font-size: 30px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+figcaption {
+  color: #7b8898;
+  font-family: "Mercury SSm A", "Mercury SSm B", Georgia, Times,
+    "Times New Roman", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑",
+    宋体, SimSun, STXihei, "华文细黑", serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.links {
+  font-size: 18px;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 35%;
+}
+
+.headerLink {
+  text-decoration: none;
+  color: white;
+}
